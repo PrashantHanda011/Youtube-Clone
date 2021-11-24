@@ -1,0 +1,24 @@
+.sidebar{
+    min-height: 100vh;
+    z-index: 0;
+    width: 6vw;
+    background-color: #202020;
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 5px;
+
+
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#box p{
+    font-size: 0.7rem;
+}

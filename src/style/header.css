@@ -1,0 +1,42 @@
+.hero-header{
+    background-color: #202020;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    padding: 10px 20px;
+}
+.v img{
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+.img-user{
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.inp{
+    width: 50vw;
+}
+.k{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    width: 40vw;
+    padding: 10px;
+    font-weight: 600;
+}
+.search-btn{
+    color: gray;
+    background-color: #2a2a2a;
+    border: none;
+    padding: 7px 20px;
+}
